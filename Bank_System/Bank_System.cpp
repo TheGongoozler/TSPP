@@ -15,6 +15,18 @@ private:
     int _bankAccId;
 };
 
+class Credit {
+
+};
+
+class Deposit {
+
+};
+
+class Insurance {
+
+};
+
 int main()
 {
     std::cout << "Hello World!\n";
