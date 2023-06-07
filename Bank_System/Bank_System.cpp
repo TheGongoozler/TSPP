@@ -1,7 +1,19 @@
-﻿// Bank_System.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
+﻿#include <iostream>
 
-#include <iostream>
+class Bank {
+private:
+    int _bankNum;
+};
+
+class Client {
+private:
+    int _clientNum;
+};
+
+class BankAccount {
+private:
+    int _bankAccId;
+};
 
 int main()
 {
